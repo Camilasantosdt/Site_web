@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=PT+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+body{
+    margin: 0px;
+    background-color:  #E3D1BD;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    font-size: 24px;
+    color: rgb(77, 74, 74);
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    padding: 4px;
+}
+
+#header h1{
+   text-shadow: 1px 1px 1px  black;
+}
+
+#container{
+  padding: 20px;
+  display: flex;
+}
+
+#content{
+    padding:22px;
+    margin:22px;
+    display: flex;
+}
+
+.box2{
+    height: 100%;
+    margin: auto;
+    width: 368px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.box2 img{
+    border-radius: 60px;
+    padding: 30px;
+}
+
+.button{
+    font-size: 30px;
+    background-color:#E3D1BD;
+    width: 150px;
+    height: 60px;
+    color:white;
+    background-color:#aa6b42;
+    border-radius: 7px;
+}
+
+.button:hover{
+    
+    background-color: #ecc18b;
+    transition: 0.7s;
+    color: black;
+    border:solid 1px black;
+    cursor: pointer;
+}
+
+.box2 p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px; 
+    color:#a35e30;
+    font-family: 'EB Garamond', serif;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: #784828;
+    font-size: 20px; 
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover{
+    background-color:black;
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+#footer{
+    text-align: center;
+    font-size: 28px;
+    background-color:  #E3D1BD;
+    padding: 30px;
+    font-family: 'PT Serif', serif;
+    color: rgb(77, 74, 74);
+    text-shadow: 1px 1px 1px  black;
+}
+
+#concluido{
+    margin: auto;
+    width: 200;
+    height: 200px;
+    background-color:#784828;
+    border-radius: 15px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#concluido h2{
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+ 
